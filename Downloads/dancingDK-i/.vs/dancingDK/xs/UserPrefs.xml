@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{618FB6E8-53F7-AB01-12D4-682624AF4B89}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LineController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/LineController.cs" Line="76" Column="2" />
+      <File FileName="Assets/Scripts/PauseMenu.cs" />
+      <File FileName="Assets/Scripts/LineGrow.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="dancingDK" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="LineController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6b5cd2da-548a-4b8d-8e92-8a9c00874b2f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

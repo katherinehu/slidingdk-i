@@ -70,7 +70,17 @@ public class LineController : MonoBehaviour
     // TODO: add colliders on furniture
     void OnCollisionEnter(Collision collision)
     {
-        dir = Vector3.zero;
-        // display menu
+        if (collision.gameObject.CompareTag("Jewel"))
+        {
+            // Handle collision with jewel
+            Debug.Log("Jewel collected!");
+            Destroy(collision.gameObject); // Destroy the jewel object
+        }
+        else
+        {
+            // Handle collision with other obstacles
+            dir = Vector3.zero;
+            // Display menu or some other action
+        }
     }
 }

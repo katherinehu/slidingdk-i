@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{D034838C-9DA8-CA6F-E5E5-15A5138C2CB0}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelSelect.cs">
+    <Files>
+      <File FileName="Assets/Scripts/LevelSelect.cs" Line="10" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="dancingDK-i" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="LevelSelect.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1fd999b4-4b03-40d5-98ec-515eab1564cb" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

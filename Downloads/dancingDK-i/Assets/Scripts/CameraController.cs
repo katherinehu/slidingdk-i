@@ -6,7 +6,11 @@ public class CameraController : MonoBehaviour
     public float smoothSpeed = 0.125f; // The speed of the camera movement
     public Vector3 offset; // The offset from the target object's position
     public static bool allowMovement = true;
-
+    // Start is called before the first frame update
+    void Start()
+    {
+        allowMovement = true;
+    }
     void LateUpdate()
     {
         if (allowMovement){

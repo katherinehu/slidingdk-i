@@ -81,7 +81,7 @@ public class LineController : MonoBehaviour
         {
             // Handle collision with other obstacles
             dir = Vector3.zero;
-            // Display menu or some other action
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

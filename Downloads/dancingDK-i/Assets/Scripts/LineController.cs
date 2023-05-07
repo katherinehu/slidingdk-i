@@ -68,13 +68,13 @@ public class LineController : MonoBehaviour
         transform.Translate(dir * movement);
     }
     
-    // TODO: add colliders on furniture
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Jewel"))
         {
             // Handle collision with jewel
             Debug.Log("Jewel collected!");
+            ScoreManager.instance.AddPt(); // Collect point on jewel counter
             Destroy(collision.gameObject); // Destroy the jewel object
         }
         else

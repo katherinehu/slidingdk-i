@@ -63,6 +63,12 @@ public class LineController : MonoBehaviour
             CameraController.allowMovement = false;
             SceneManager.LoadScene("MainMenu");
         }
+
+        // If stop moving restart
+        if (backgroundMusic.isPlaying && (dir == Vector3.zero))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
         if (dir != Vector3.zero) { Instantiate(shadowPrefab, transform.position, transform.rotation); }
         float movement = speed * Time.deltaTime;
         transform.Translate(dir * movement);
@@ -81,7 +87,6 @@ public class LineController : MonoBehaviour
         {
             // Handle collision with other obstacles
             dir = Vector3.zero;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LineController : MonoBehaviour
 {
@@ -58,9 +59,8 @@ public class LineController : MonoBehaviour
         // Check if the music has ended
         if (!backgroundMusic.isPlaying && canEnd)
         {
-            mainCamera.enabled = false;
-            // Do something when the music has ended
-            Debug.Log("The music has ended!");
+            CameraController.allowMovement = false;
+            SceneManager.LoadScene("MainMenu");
         }
         if (dir != Vector3.zero) { Instantiate(shadowPrefab, transform.position, transform.rotation); }
         float movement = speed * Time.deltaTime;

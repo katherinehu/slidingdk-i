@@ -6,21 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Flower.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/Pause.unity
-    guid: 1e58878f8bc0042e394bac9571633168
-  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 365a0fbb9294e4a56839e3053772d761
-  - enabled: 1
-    path: Assets/Scenes/Ikea.unity
-    guid: dbb4fe39cb49841c6b4d3789b1197f16
   - enabled: 1
     path: Assets/Scenes/Beach.unity
     guid: 7398f7c97d2064a139228341092ba69f
   - enabled: 1
+    path: Assets/Scenes/Flower.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Ikea.unity
+    guid: dbb4fe39cb49841c6b4d3789b1197f16
+  - enabled: 1
     path: Assets/Scenes/City.unity
     guid: f26a0b0ffcdf44702acb2b794e1557c2
+  - enabled: 1
+    path: Assets/Scenes/Pause.unity
+    guid: 1e58878f8bc0042e394bac9571633168
   m_configObjects: {}
